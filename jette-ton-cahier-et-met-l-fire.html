@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Genre c'est de l'éducation</title>
+	<link rel="icon" type="image/png" href="../image/etoiledeux.png" />
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:500i" rel="stylesheet">
+    <!-- 	<link href="https://fonts.googleapis.com/css?family=Cormorant:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:600i" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="styleclasse.css"> 
+
+	<script>
+		function changeCouleur(couleurFond, couleurTexte, couleurTitre, couleurOuvertures  ) {
+			document.getElementById("letout").style.backgroundColor = couleurFond;
+			document.getElementById("body").style.backgroundColor = couleurFond;
+			document.getElementById("bouton").style.backgroundColor = couleurFond;
+			document.getElementById("titre").style.color = couleurTitre;
+			document.getElementById("titresous").style.color = couleurTitre;	
+			document.getElementById("textun").style.color = couleurTexte;
+			document.getElementById("textdeux").style.color = couleurTexte;
+			document.getElementById("texttrois").style.color = couleurTexte;
+			document.getElementById("versun").style.color = couleurOuvertures;
+			document.getElementById("versdeux").style.color = couleurOuvertures;
+			document.getElementById("verstrois").style.color = couleurOuvertures;
+			document.getElementById("couleur").style.color = couleurOuvertures;
+
+		}
+
+	</script>
+
+
+</head>
+
+<body id="body">
+
+
+	<script type="text/javascript">
+		var clicks = 0;
+		var nom_bouton;
+
+		function onClick()
+		{
+			clicks += 1;
+
+			if (clicks%2 == 0)
+			{
+				changeCouleur('rgb(250,250,250)', 'rgb(166,54,36)' , 'rgb(166,54,36)', 'rgb(233,114,213)');
+			}
+			else
+			{
+				changeCouleur('rgb(250,250,250)', 'rgb(0,0,0)' , 'rgb(0,0,0)', 'rgb(211,150,72)' );
+			}
+
+			document.getElementById("clicks").innerHTML = clicks;
+		};
+
+	</script>
+
+
+	<div id="letout">
+
+		<div id="un">				
+
+
+			<div id="titre">
+
+				Occupation de l'espace
+
+			</div>
+
+			<div id="titresous">
+				dans la classe
+			</div>
+
+
+
+			<div id="textun">
+
+
+				En classe, on observe des attitudes différentes entre les filles et garçons. Ce sont en grande majorité ces derniers qui occupent et dominent l’espace sonore : ils coupent la parole, répondent à la place des autres, font fréquemment du bruit pour signaler leur présence, bougent beaucoup. À la différence des filles qui demandent presque systématiquement l’autorisation pour prendre la parole, leurs comportements sont marqués le plus souvent par l’attention, l’écoute et le calme. Elles sont plus silencieuses, plus discrètes, plus passives, et déploient des stratégies qui consistent à demeurer dans l’ombre et à laisser l’espace aux garçons.
+
+			</div>
+
+		</div>
+
+		<div id="deux">
+
+			<div id="textdeux">
+
+
+
+				<span class="gras">Une occupation du temps et de l’espace inégalitaire </span>
+				<br>
+
+				Dans un article, Nicole Mosconi, philosophe et professeure des sciences de l’éducation, cherche à comprendre <a href="https://www.persee.fr/doc/dsedu_1296-2104_2001_num_5_1_953" target="blank" class="externe">comment les pratiques enseignantes fabriquent de l’inégalité entre les sexes?</a>
+
+
+				<br>
+
+				Des enquêtes vidéos qu’elle réalise dans des classes montrent qu’en moyenne 2/3 des interactions profs/élèves en classe ont lieu avec des garçons, contre 1/3 avec les filles. Ces chiffres dissimulent une <span class="italique">norme implicite favorisant les garçons</span>, la preuve étant que lorsque que l’on essaie de rétablir un traitement égal, <span class="couleur">les garçons se sentent négligés</span>, et les enseignant.e.s partagent ce sentiment. 
+				
+
+
+				<br> 
+
+				<div id="etoile"></div>
+
+
+				Ainsi, une norme implicite de neutralité consiste pour un.e enseignant.e à <span class="couleur">favoriser les garçons en temps d’attention</span> et à avoir plus de tolérance pour leur indiscipline. Ces interactions véhiculent aussi un message caché : il est légitime que les filles reçoivent moins d’attention et de temps que les garçons, car leur place est secondaire, elles doivent prendre moins de place physiquement et intellectuellement. 
+
+				<br> <br>L’enseignant.e intègre à son insu dans ses pratiques <span class="couleur">la dominance sociale du groupe masculin</span>. On observe également un double standard : un maître écrit sur ses élèves «Brahim et Imad, très vivants» alors que «Sarah est perturbatrice». 
+
+
+
+
+			</div>
+		</div>
+
+		<div id="trois">
+
+
+
+			<div id="texttrois">
+
+
+				<span class="gras">Des différences dans la qualité des interactions</span>
+				<br>
+				Nicole Mosconi montre qu’en plus des différences de temps accordés, il existe des différences dans la qualité des interactions entre un.e enseignant.e et une fille ou un.e enseignant.e et un garçon de même position scolaire. On aura plus tendance à dire à un garçon «explique», «réfléchis», «tu comprends» alors qu’on dira plutôt à une fille : «fais-le», «écris-le» ou encore «dis-nous». 
+				<br>
+				<br>
+
+				Elle observe aussi que les filles sont plutôt interrogées pour <span class="couleur">rappeler des savoirs vus</span> lors des séances précédentes alors que les garçons sont plutôt interrogés pour <span class="couleur">construire des savoirs nouveaux</span>. Inconsciemment, on a encore tendance à penser que les garçons réussissent par leur capacités alors que les filles réussissent par leur travail.
+				<br> 
+				<div id="etoile"></div>
+				Ces différences d’attentes des professeurs, peuvent expliquer des différences d’orientation et de perception de soi. En effet, les performances d'un sujet varient, en fonction du degré de croyance en sa réussite. Ainsi un.e élève dont le professeur.e aura de plus grandes attentes en mathématiques, aura tendance à progresser dans ce domaine. 
+
+				<br> <br>
+
+
+				<span class="couleur">Les enseignant.e.s contribuent donc à constituer un rapport au savoir différent pour les filles et pour les garçons</span>. La mixité n’est qu’apparente et on éduque inconsciemment les deux sexes à un apprentissage de leurs positions sociales et cognitives inégales. 
+
+
+			</div>
+
+
+
+
+		</div>
+
+
+		<div id="quatre">
+			<div id="icones">
+				<a href="galaxie.html"><div id="intro"></div> </a>
+				<div id="introdeux"></div>
+				<a href="bibliographie/bibliographie.html"><div id="biblio"></div> </a>	
+				<a href="qu-est-ce-que-cest-ca.html"><div id="lexique"></div> </a>	
+
+				<button type="button" id="bouton" onClick="onClick()"></button>
+
+
+
+			</div>
+
+
+
+
+			<div id="ouvertures">
+
+				<div id="leun">
+					<a href="ou-sont-les-femmes.html" class="ouverture">
+						<div id="versun"> Petite histoire<br/><span class="soustitre">de la langue française</span> 
+						</div> 
+					</a>
+				</div>
+
+
+
+				<div id="ledeux">
+					<a href="cest-pas-marque-dans-les-livres.html" class="ouverture">
+						<div id="versdeux"> Les manuels scolaires<br/><span class="soustitre">Modèles et identification</span>
+						</div>
+					</a> 
+				</div>
+
+
+
+				<div id="letrois">
+					<a href="tar-ta-gueule.html" class="ouverture">
+						<div id="verstrois"> L'occupation de l'espace<br/><span class="soustitre">dans la cour de récréation</span>
+						</div> 
+					</a> 
+				</div>
+
+
+
+
+
+			</div>	
+		</div>
+
+	</div>
+
+
+
+
+</body>
+</html>

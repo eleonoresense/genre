@@ -1,0 +1,145 @@
+html, body{
+	background-color: rgb(0,0,30);
+	font-family: 'roboto', sans-serif;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	vertical-align: center;
+	flex-wrap:wrap;
+	color: white;
+	font-size: 1em;
+	display: flex;
+	text-align: left;
+
+	line-height: 0.8em;
+}
+
+.soustitre{
+	font-style:normal;
+	font-size: 0.8em;
+}
+
+a:link{
+
+	text-decoration: none;
+}
+
+.espace {
+	position: absolute;
+	top: 70px;
+	left: 150px;
+	width: 300px;
+}
+
+.classe{
+	position: absolute;
+	width: 300px;
+	top: 450px;
+	left:500px;
+}
+
+.grammaire{
+	position: absolute;
+	width: 200px;
+	top: 100px;
+	left:1050px;
+
+}
+
+.manuel{
+	position: absolute;
+	width: 300px;
+	top: 500px;
+	left:80px;
+}
+
+.emotion{
+	position: absolute;
+	width: 200px;
+	top: 300px;
+	left:680px;
+}
+
+
+.perception{
+	position: absolute;
+	width: 300px;
+	bottom: 70px;
+	right:60px;
+}
+.violence{
+	position: absolute;
+		width: 200px;
+	bottom: 110px;
+	right: 320px;
+
+}
+
+
+.sport{
+	position: absolute;
+	width: 300px;
+	top: 250px;
+	left:350px;
+}
+
+
+.image {
+	display: block;
+	width: 30px;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background-color: rgb(0,0,30);
+}
+
+.espace:hover .overlay {
+	opacity: 1;
+}
+
+.classe:hover .overlay {
+	opacity: 1;
+}
+
+.grammaire:hover .overlay {
+	opacity: 1;
+}
+
+
+.manuel:hover .overlay {
+	opacity: 1;
+}
+
+.emotion:hover .overlay {
+	opacity: 1;
+}
+
+.perception:hover .overlay {
+	opacity: 1;
+}
+
+
+.violence:hover .overlay {
+	opacity: 1;
+}
+
+.sport:hover .overlay {
+	opacity: 1;
+}
+
+
+
+.text {
+	color: white;
+	position: relative;
+}

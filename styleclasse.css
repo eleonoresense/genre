@@ -1,0 +1,356 @@
+html, body{
+	font-family: 'Cormorant', serif;
+	margin:0px;
+}
+
+#body{
+	background: rgb(250,250,250) ;
+}
+
+#letout{
+	width: 100vw;
+	height: 100vh;
+	background: rgb(250,250,250) ;
+	display: flex;
+	justify-content: center ;
+	align-items: center;
+	flex-wrap:wrap;
+	font-size: 1em;
+	color: rgb(166,54,36);
+
+}
+.image{
+	margin-top:10px;
+	margin-bottom:10px;}
+
+
+	#bouton{
+		width: 40px;
+		height:40px;
+		background-image: url("image/journuit.png");
+		background-color: rgb(250,250,250) ;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 202px;
+		border-style: none;
+		cursor: pointer;
+	}
+
+
+	#introdeux{
+		width: 63px;
+		height:40px;
+		background-image: url("image/fond.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 20px;
+	}
+
+	#intro{
+		width: 63px;
+		height:40px;
+		background-image: url("image/retour.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 2;
+		top: 20px;
+		opacity: 0;
+		right: 20px;
+	}
+
+	#intro:hover{
+
+		opacity: 1;
+	}
+
+	#biblio{
+		width: 44px;
+		height:40px;
+		background-image: url("image/biblio.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 98px;
+	}
+
+	#lexique{
+		width: 40px;
+		height:40px;
+		background-image: url("image/lexique.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 153px;
+	}
+
+
+
+	#un{
+		width: 25vw;
+		height: 100vh;
+	}
+
+
+	#titre{
+		font-size: 2.1em;
+
+		padding-left: 20px;	
+		padding-top: 10px;	
+		position: fixed;
+		color: rgb(70,105,213);
+
+	}
+
+	#titresous{
+		font-size: 1.9em;
+		font-style: italic;
+		left: 20px;	
+		padding-top: 40px;	
+		position: fixed;
+		color: rgb(70,105,213);
+
+	}
+
+
+
+
+	#textun{
+		color: rgb(70,105,213);
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		font-size: 1.2em;
+		width: 22vw; 
+		top: 77px;	
+		padding-left: 20px;
+		margin-right: 60px;	
+		position: fixed;
+
+	}
+
+
+
+	#deux{
+		width: 25vw;
+		height: 100vh;
+	}
+
+	#textdeux{
+		padding-top: 77px;	
+		padding-left: 15px;
+		padding-right: 5px;	
+		padding-bottom: 30px;	
+	}
+
+	#trois{
+		width: 25vw;
+		height: 100vh;
+	}
+
+
+	#texttrois{
+		padding-top: 77px;	
+		padding-left: 15px;
+		padding-right: 5px;
+		padding-bottom: 30px;		
+
+	}
+
+
+	#etoile{
+		width: 30px;
+		height:30px;
+		background-image: url("image/etoiledeux.png");
+		background-size: cover;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: none;
+		transform: rotate(0deg);
+		transition:  transform 2s ;
+	}
+
+	#etoile:hover{
+		transform: rotate(360deg);
+	}
+
+/*#poete{
+	  height: 46px;
+	  width: 200px;
+	background-image: url("image/poetesse.gif");
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	}*/
+
+	.center{
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+	#italic{
+		line-height: 14px;
+		font-style: italic;
+		font-size: 1.8em;
+
+		padding-left: 20px;	
+
+	}
+
+
+	#quatre{
+		width: 25vw;
+		height: 100vh;
+	}
+
+	.gras{
+		font-family: roboto;
+		font-size:0.9em;
+		font-weight: bold;
+	color: rgb(229,223,0);
+
+	}
+}
+
+.gras:hover{
+
+	text-decoration: underline;
+}
+
+
+.italique{
+
+	font-style: italic;
+}
+
+
+.couleur{
+	color: rgb(233,114,213);
+
+}
+
+.big:hover{
+	font-style: italic;
+	font-style: bold;
+	font-size: 1.3em;
+
+}
+
+.soustitre{
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+
+#leun{
+	text-align: right;
+	position: fixed;
+	bottom: 115px;	
+	right: 20px;
+
+}
+
+
+#ledeux{
+	text-align:right;
+	bottom: 75px;		
+	right: 20px;
+	position: fixed;
+
+}
+
+#letrois{
+	text-align:right;
+	position: fixed;
+	bottom: 35px;
+	right: 20px;
+
+}
+
+
+
+.ouverture{
+	font-family:Roboto;
+	font-size: 1em;
+	text-decoration: none ;
+	line-height: 15px;
+	color:rgb(233,114,213);
+}
+
+
+#audio{
+	padding-top: 30px;	
+	padding-left: 0px;
+	padding-right: 10px;	
+
+}
+
+.ouverture:hover{
+	font-style: italic;
+	font-weight: bold;
+
+	/*color:rgb(42,122,80); */
+
+}
+
+
+
+
+
+.externe{
+	color:rgb(166,54,36);
+	font-weight:bold;
+
+}
+
+.externe:hover{
+	text-decoration: underline;
+	color:black;
+}
+
+
+.lien{
+	color:rgb(0,15,255);
+	font-weight: bold;
+
+}
+
+.lien:hover{
+	text-decoration: underline dotted;
+}
+
+
+
+	/*#versun{
+		color:rgb(0,177,255);
+	}
+
+	.versun:hover{
+
+		color:rgb(42,122,80);
+
+	}
+
+
+	#versdeux{
+		color:rgb(0,177,255);
+	}
+	#verstrois{
+		color:rgb(0,177,255);
+	}*/

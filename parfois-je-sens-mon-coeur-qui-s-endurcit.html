@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Genre c'est de l'éducation</title>
+	<link rel="icon" type="image/png" href="../image/etoiledeux.png" />
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:500i" rel="stylesheet">
+    <!-- 	<link href="https://fonts.googleapis.com/css?family=Cormorant:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:600i" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="styleemotion.css"> 
+
+	<script>
+		function changeCouleur(couleurFond, couleurTexte, couleurOuvertures  ) {
+			document.getElementById("letout").style.backgroundColor = couleurFond;
+			document.getElementById("body").style.backgroundColor = couleurFond;
+			document.getElementById("bouton").style.backgroundColor = couleurFond;
+			document.getElementById("titre").style.color = couleurTexte;
+			document.getElementById("titresous").style.color = couleurTexte;	
+			document.getElementById("textun").style.color = couleurTexte;
+			document.getElementById("textdeux").style.color = couleurTexte;
+			document.getElementById("texttrois").style.color = couleurTexte;
+			document.getElementById("versdeux").style.color = couleurOuvertures;
+			document.getElementById("verstrois").style.color = couleurOuvertures;
+
+
+		}
+
+	</script>
+
+
+</head>
+
+<body id="body">
+
+
+	<script type="text/javascript">
+		var clicks = 0;
+		var nom_bouton;
+
+		function onClick()
+		{
+			clicks += 1;
+
+			if (clicks%2 == 0)
+			{
+				changeCouleur('rgb(254,242,81)', 'rgb(0,0,0)' , 'rgb(235,50,35)');
+			}
+			else
+			{
+				changeCouleur('rgb(250,250,250)', 'rgb(0,0,0)' , 'rgb(0,0,0)' );
+			}
+
+			document.getElementById("clicks").innerHTML = clicks;
+		};
+
+	</script>
+
+
+	<div id="letout">
+
+		<div id="un">				
+
+
+			<div id="titre">
+
+				L'éducation
+
+			</div>
+
+			<div id="titresous">
+				aux émotions
+			</div>
+
+
+
+			<div id="textun">
+				Pour gérer ses émotions, chaque individu.e puise dans des compétences qu’il.elle a développé.e.s au cours de sa <a href="qu-est-ce-que-cest-ca.html" target="blank" class="big">socialisation</a> comme la connaissance de soi, la capacité à nommer ses émotions, la confiance, ou l’empathie. Ces compétences ne sont pas les mêmes entre les filles et les garçons, en raison d’une socialisation aux émotions et aux sentiments différenciée.
+			</div>
+
+		</div>
+
+		<div id="deux">
+
+			<div id="textdeux">
+
+				Les garçons apprennent davantage à maîtriser leurs émotions, à les contenir, pour correspondre au stéréotype de l'homme fort et infaillible. Lorsque l’on demande à Kelyan, 6 ans quelles émotions il ressent le plus souvent, il nous répond : «Jamais triste, heureux des fois et en colère tout le temps».
+				<br>Au contraire, on inculque aux filles une plus grande palette d'émotions et on attend d'elles une certaine sensibilité, fragilité, tout en <span class="couleur">masquant leur colère</span>.
+				On peut trouver<a href="https://www.binge.audio/ou-sont-les-casseuses-2/" target="blank" class="externe"> un super podcast de Victoire Tuaillon de la série «Les couilles sur la table»</a> qui traite de ce sujet.
+
+				<br>
+				<div id="etoiledos"></div> 
+				<br>
+
+				Dans sa thèse sur l’enfance des sentiments : <a href="https://www.cairn.info/revue-terrains-et-travaux-2015-2-page-21.htm" target="blank" class="externe">la construction et l’intériorisation des normes et représentations genrées et androcentrées de l’amour chez les enfants de 6 à 11 ans, Kevin Diter </a> doctorant en sociologie, nous explique que les filles vont avoir <span class="couleur">une plus grande capacité à exprimer leur émotions</span> car les adultes qui les entourent se soucient davantage de <span class="couleur">leur bien être sentimental</span>. 
+
+				<br>
+				<br>
+				Leurs jeux tournent beaucoup autour de l’amour et de l’amitié, comme dans les histoires qu’elles lisent et les vêtements qu’elles portent, souvent couverts d’inscriptions comme «I love you».
+
+
+
+
+			</div>
+		</div>
+
+		<div id="trois">
+
+
+			
+			<div id="texttrois">
+
+				C’est avec elles que professeur.e.s et animateur.rice.s discutent plus volontiers du sentiment amoureux. Au contraire, <span class="couleur">l’attention portée aux émotions et sentiments sera moins fréquente pour les garçons</span> et les encadrants auront tendance à être <span class="couleur">moins empathiques avec eux</span>. «Avec les garçons, ces conversations sont davantage teintées d’ironie», constate Kevin Diter. D’ailleurs, quand on interroge les garçons sur l’amour, ils disent plus fréquemment que c’est dégoûtant ou se montrent mal à l’aise. 
+
+				<div id="etoiledos"></div>
+
+
+
+				<a href="https://journals.openedition.org/gc/2107" target="blank" class="externe">Dans la fabrique des garçons, Sylvie Ayral</a>, doctorante en sciences de l’éducation, nous explique qu’à l’école, les garçons <span class="couleur">subissent une double pression : </span>on leur dit qu’il faut être obéissant, appliqué… Mais s’ils sont trop sages, leur camarades vont les traiter «d’intellos», de «gonzesses» ou même de «soumis». Implicitement, on s’attend à ce que les garçons soient indisciplinés, rebelles, fumistes. Cette pression exercée par les pairs est <a href="qu-est-ce-que-cest-ca.html" target="blank" class="big">naturalisée</a> par l’école : «les garçons sont naturellement plus turbulents, moins appliqués, etc.» entend-on régulièrement. Pour un garçon «la seule émotion qu’on va tolérer socialement, c’est la colère et les débordements qui vont avec».
+
+			</div>
+
+		</div>
+
+
+		<div id="quatre">
+			<div id="icones">
+				<a href="galaxie.html"><div id="intro"></div> </a>
+				<div id="introdeux"></div>	
+				<a href="bibliographie/bibliographie.html"><div id="biblio"></div> </a>	
+				<a href="qu-est-ce-que-cest-ca.html"><div id="lexique"></div> </a>	
+
+				<button type="button" id="bouton" onClick="onClick()"></button>
+
+
+
+			</div>
+
+
+
+
+			<div id="ouvertures">
+
+
+
+
+				<div id="ledeux">
+					<a href="tar-ta-gueule.html">
+						<div id="versdeux"> L'occupation de l'espace<br/><span class="soustitre">dans la cours de récréation</span>
+						</div>
+					</a> 
+				</div>
+
+
+
+				<div id="letrois">
+					<a href="viser-la-lune-ca-me-fait-pas-peur.html">
+						<div id="verstrois"> Les stéréotypes<br/><span class="soustitre">liés au genre</span>
+						</div> 
+					</a> 
+				</div>
+
+
+
+
+
+			</div>	
+		</div>
+
+	</div>
+
+
+
+
+</body>
+</html>

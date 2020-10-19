@@ -1,0 +1,111 @@
+html, body{
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(30,30,30);
+	color: white;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align:center;
+align-items: center;
+	/*vertical-align: center;*/
+	flex-wrap:wrap;
+
+
+}
+
+@font-face {
+	font-family: 'Wave';
+	src: url('../typo/Wave-Regular.woff2') format('woff2'),
+	url('../typo/Wave-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+/*a:link {
+	color: black;
+	text-decoration: none;
+}
+*/
+	#bouton{
+		width: 40px;
+		height:40px;
+		background-image: url("image/journuit.png");
+	background-color: rgb(30,30,30);
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 153px;
+		border-style: none;
+		cursor: pointer;
+	}
+
+
+	#introdeux{
+		width: 63px;
+		height:40px;
+		background-image: url("image/fond.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 20px;
+	}
+
+	#intro{
+		width: 63px;
+		height:40px;
+		background-image: url("../image/retour.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 2;
+		top: 20px;
+		opacity: 0;
+		right: 20px;
+	}
+
+	#intro:hover{
+
+		opacity: 1;
+	}
+
+
+	#lexique{
+		width: 40px;
+		height:40px;
+		background-image: url("image/lexique.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 98px;
+	}
+
+
+
+
+#text{
+	width: 70%;
+	font-size: 1.4em;
+	text-align:center;
+	color: white;
+	line-height: 1.4em;
+
+z-index: 1;
+
+}
+
+#text:hover{
+font-family: Wave;
+
+}
+
+
+

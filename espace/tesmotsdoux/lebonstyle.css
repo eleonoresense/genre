@@ -1,0 +1,137 @@
+html, body{
+	background-color: white;
+	font-family: "Courier New", monospace;
+	color:black;
+ 	font-size: 10px;
+ 	font-weight:bold;
+    line-height: 1px;
+	margin-top: 0px;
+	width: 100%;
+	height: 200vh;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+
+    
+}
+
+#boutonCouleur{
+  height:20px;
+  width:20px;
+	background-image: url("compass.svg");  
+			background-size: cover;
+			border-style: none;
+			background-color: white;
+			position: relative;
+			left:385px;
+
+}
+
+
+#boutonCouleur:hover{
+ transform: rotate(45deg);
+}
+#letout{
+	margin-top: 50px;
+	width: 100%;
+	height: 100vh;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	font-size: 1em;
+
+}
+
+
+.tableLabel{ 
+visibility: hidden;
+	}
+
+#myInput{
+	height: 30px;
+	width:400px;
+ border: 1px dashed #000;
+	padding-left:20px;
+	padding-right:20px;
+	text-align: center;
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 20px;
+	visibility: visible;
+}
+
+#button{	
+	height: 80px;
+	width:150px;
+	margin-top: 20px;
+	border: black;
+	border:1px solid;
+	padding:10px;
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 20px;
+	background-color: white;
+}
+
+.toutletableau {
+
+  background:white;
+  margin-top: 100px;
+  width: 700px;
+  color:black;
+  text-align:center;
+  align-items:center;
+ margin-bottom:10px;
+  line-height: 12px;
+  border: 1px dashed #000;
+  display: inline-block;
+  padding-top: 30px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:50px;
+
+}
+
+
+.col {
+visibility:collapse;
+}
+
+
+
+
+.fullWidth {
+  width: 100%;
+}
+
+@media print{
+
+    @page { 
+        size: landscape;
+    }
+
+	.col{
+	visibility: visible;
+	}
+
+	.tableLabel{
+	visibility: visible;
+	}
+
+	#myInput{
+			display:none;
+	}
+
+		#button{
+			display:none;
+	}
+
+			#boutonCouleur{
+			display:none;
+	}
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 0.5px dotted black;
+}
+}

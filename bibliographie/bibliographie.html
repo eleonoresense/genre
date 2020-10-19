@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Genre c'est de l'éducation</title>
+	<link rel="icon" type="image/png" href="../image/etoiledeux.png" />
+
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<script>
+		function changeCouleur(couleurFond, couleurTexte ) {
+			document.getElementById("body").style.backgroundColor = couleurFond;
+			document.getElementById("bouton").style.backgroundColor = couleurFond;	
+			document.getElementById("text").style.color = couleurTexte;
+
+
+		}
+
+	</script>
+
+
+</head>
+
+<body id="body">
+
+	<audio autoplay loop>
+		<source src="musique.ogg" type="audio/ogg">
+			<source src="musique.mp3" type="audio/mpeg" autoplay>
+			</audio>
+			<!--  <audio src="musique.mp3" autoplay loop> </audio>-->
+
+			<script type="text/javascript">
+				var clicks = 0;
+				var nom_bouton;
+
+				function onClick()
+				{
+					clicks += 1;
+
+					if (clicks%2 == 0)
+					{
+						changeCouleur('rgb(30,30,30)', 'rgb(255,255,255)' );
+					}
+					else
+					{
+						changeCouleur('rgb(255,255,255)', 'rgb(0,0,0)' );
+					}
+
+					document.getElementById("clicks").innerHTML = clicks;
+				};
+
+			</script>
+
+
+			<div id="text">
+
+
+				La bibliographie arrive bientôt!
+
+			</div>
+
+
+			<a href="../galaxie.html"><div id="intro"></div> </a>
+			<div id="introdeux"></div>
+			<a href="../qu-est-ce-que-cest-ca.html"><div id="lexique"></div> </a>	
+
+			<button type="button" id="bouton" onClick="onClick()"></button>
+
+
+
+
+
+		</body>
+		</html>

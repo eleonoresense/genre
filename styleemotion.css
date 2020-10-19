@@ -1,0 +1,387 @@
+html, body{
+	font-family: 'Cormorant', serif;
+	margin:0px;
+}
+
+@font-face {
+	font-family: 'Wave';
+	src: url('typo/Wave-Regular.woff2') format('woff2'),
+	url('typo/Wave-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+#body{
+	background: rgb(254,242,81) ;
+}
+
+#letout{
+	width: 100vw;
+	height: 100vh;
+	background: rgb(254,242,81) ;
+	display: flex;
+	justify-content: center ;
+	align-items: center;
+	flex-wrap:wrap;
+	font-size: 1em;
+	cursor: url("emotion/coeur.png"), pointer;	
+
+}
+.big{ text-decoration: underline;
+	font-weight: bold; 
+	color:black;
+
+}
+
+.big:hover{
+	font-style: italic;
+	font-weight: bold; 
+	color: rgb(235,50,35);
+
+}
+
+
+.image{
+	margin-top:10px;
+	margin-bottom:10px;}
+
+
+	#bouton{
+		width: 40px;
+		height:40px;
+		background-image: url("image/journuit.png");
+		background-color: rgb(254,242,81) ;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 202px;
+		border-style: none;
+		cursor: pointer;
+	}
+
+
+	#introdeux{
+		width: 63px;
+		height:40px;
+		background-image: url("image/fond.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 20px;
+	}
+
+	#intro{
+		width: 63px;
+		height:40px;
+		background-image: url("image/retour.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 2;
+		top: 20px;
+		opacity: 0;
+		right: 20px;
+	}
+
+	#intro:hover{
+
+		opacity: 1;
+	}
+
+	#biblio{
+		width: 44px;
+		height:40px;
+		background-image: url("image/biblio.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 98px;
+	}
+
+	#lexique{
+		width: 40px;
+		height:40px;
+		background-image: url("image/lexique.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 153px;
+	}
+
+
+
+	#un{
+		width: 25vw;
+		height: 100vh;
+
+		cursor: url("emotion/coeur.png"), pointer;	
+	}
+
+
+	#titre{
+		font-size: 2.1em;
+
+		padding-left: 20px;	
+		padding-top: 10px;	
+		position: fixed;
+		
+
+	}
+
+	#titresous{
+		font-size: 1.9em;
+		font-style: italic;
+		left: 20px;	
+		padding-top: 40px;	
+		position: fixed;
+
+	}
+
+
+
+
+	#textun{
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		font-size: 1.2em;
+		width: 22vw; 
+		top: 77px;	
+		padding-left: 20px;
+		margin-right: 60px;	
+		position: fixed;
+
+
+	}
+
+
+
+	#deux{
+		width: 25vw;
+		height: 100vh;
+	}
+
+	#textdeux{
+		padding-top: 77px;	
+		padding-left: 15px;
+		padding-right: 5px;	
+		padding-bottom: 30px;
+		
+	}
+
+	#trois{
+		width: 25vw;
+		height: 100vh;
+	}
+
+
+	#texttrois{
+		padding-top: 77px;	
+		padding-left: 15px;
+		padding-right: 5px;
+		padding-bottom: 30px;	
+
+	}
+
+
+	#etoile{
+		width: 30px;
+		height:30px;
+		background-image: url("emotion/image/coeurnoir.png");
+		background-size: cover;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: none;
+		transform: rotate(0deg);
+		transition:  transform 2s ;
+	}
+
+	#etoile:hover{
+		transform: rotate(360deg);
+		cursor: url("emotion/coeurdeux.png"), pointer;
+	}
+
+	#etoiledos{
+		width: 30px;
+		height:30px;
+		background-image: url("emotion/image/coeurnoir.png");
+		background-size: cover;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: none;
+		transform: rotate(0deg);
+		transition:  transform 2s ;
+	}
+
+	#etoiledos:hover{
+		transform: rotate(360deg);
+		cursor: url("emotion/coeurdeux.png"), pointer;
+	}
+/*#poete{
+	  height: 46px;
+	  width: 200px;
+	background-image: url("image/poetesse.gif");
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	}*/
+
+	.center{
+		margin-bottom: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+	#italic{
+		line-height: 14px;
+		font-style: italic;
+		font-size: 1.8em;
+
+		padding-left: 20px;	
+
+	}
+
+
+	#quatre{
+		width: 25vw;
+		height: 100vh;
+
+		cursor: url("emotion/coeur.png"), pointer;	
+
+	}
+
+	.gras{
+		font-family: Roboto;
+		font-size:0.9em;
+		font-weight: bold;		
+		line-height: 0.5em;
+		/*font-weight: bold;*/
+	}
+
+	.gras:hover{
+
+		text-decoration: underline;
+	}
+
+
+	.couleur{
+font-style: italic;
+
+	}
+
+
+
+
+
+	.soustitre{
+		font-style: italic;
+		font-size: 0.8em;
+	}
+
+	.externe{
+		font-family: Cormorant, serif;
+		text-decoration: underline;
+		font-size: 1em;
+		font-weight: bold;
+		color:black;
+
+	}
+
+	.externe:hover{
+		text-decoration: underline;
+	color: rgb(235,50,35);
+		font-size: 1em;
+		font-family: Cormorant, serif;
+		font-style: normal;
+	}
+
+
+/*#ouvertures{
+	position:fixed;
+	}*/
+
+	#leun{
+		text-align: right;
+		position: fixed;
+		bottom: 115px;	
+		right: 20px;
+		cursor: url("emotion/coeurrouge.png"), pointer;
+	}
+
+
+	#ledeux{
+		text-align:right;
+		bottom: 75px;		
+		right: 20px;
+		position: fixed;
+		cursor: url("emotion/coeurrouge.png"), pointer;
+
+	}
+
+	#letrois{
+		text-align:right;
+		position: fixed;
+		bottom: 35px;
+		right: 20px;
+		cursor: url("emotion/coeurrouge.png"), pointer;
+
+	}
+
+
+
+
+		/*a:hover{
+		font-family: Wave;
+		font-size: 1em;
+		
+		color:rgb(42,122,80); }*/
+
+
+		a{
+			text-decoration: none;
+		}
+
+
+
+		#versdeux{
+			font-family:Roboto;
+			font-size: 1em;
+			line-height: 15px;
+			color:rgb(253,40,11);
+		}
+
+
+		#versdeux:hover{
+			font-family: Wave;
+		}
+
+
+
+		#verstrois{
+			font-family:Roboto;
+			font-size: 1em;
+			text-decoration: none;
+			line-height: 15px;
+			color:rgb(253,40,11);
+		}
+
+
+		#verstrois:hover{
+			font-family: Wave;
+		}

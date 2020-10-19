@@ -1,0 +1,55 @@
+html, body{
+	background-color: rgb(250,250,250);
+	font-family: 'Roboto', sans-serif;
+	color: rgb(255,0,0);
+	width: 100vw;
+	height: 100vh;
+
+}
+	
+	@font-face {
+	font-family: 'Main';
+	src: url('../typo/Manuscrite.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+
+
+}
+
+#boitegrise{
+	background-color: rgb(250,250,250);
+	height: 100vh;
+	width: 100vw;
+}
+
+
+
+
+#coucou{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: center;
+	flex-wrap:wrap;
+	font-size: 6em;
+}
+
+
+
+
+
+
+#text{
+	font-family: 'Roboto';
+	width: 100%;
+	font-size: 0.8em;
+	align-items: center;
+	bottom: 20px;
+	position: fixed;
+	text-align:center;
+
+}
+
+

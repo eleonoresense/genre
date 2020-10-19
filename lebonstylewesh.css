@@ -1,0 +1,270 @@
+html, body{
+	background-color: black;
+	font-family: "Courier New", monospace;
+	color:white;
+ 	font-size: 10px;
+ 	font-weight:bold;
+    line-height: 1px;
+	margin-top: 0px;
+	width: 100%;
+	height: 200vh;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+
+    
+}
+
+#intro{
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 20px;
+    animation-name:cligno;
+    		animation-duration: 5s;
+		animation-iteration-count: infinite;
+}
+
+	@keyframes cligno {
+		0% {filter: brightness(100%);}
+		30%{filter: brightness(100%);}
+		31%{filter: brightness(0%);}
+		33% {filter: brightness(500%);}
+		34% {filter: brightness(100%);}
+		35% {filter: brightness(100%);}
+		36% {filter: brightness(0%);}
+		37% {filter: brightness(500%);}
+				38% {filter: brightness(0%);}
+		39% {filter: brightness(500%);}
+		44% {filter: brightness(100%);}
+		100% {filter: brightness(100%);}
+	}
+	
+	#button:hover{
+
+	filter: brightness(500%);
+	box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.1);
+}
+
+
+#broke{ 
+    margin-top:15px;
+  text-align: right;
+  cursor: pointer;
+ font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 15px;
+}
+
+#broke:hover {
+  /*color:pink;*/
+  	filter: brightness(500%);
+}
+
+#indice{ 
+position: fixed;
+			left:150px;
+			top:150px;}
+			
+#impression {
+  cursor: crosshair;
+font-family: "Courier New", monospace;
+  font-size: 10px;
+  color:black;
+  font-weight:lighter;
+}
+
+
+a{   
+        color:white;
+    
+    text-decoration: none;}
+    
+
+
+a:visited{
+    color:white;
+}
+
+
+#boutonCouleur{
+  height:20px;
+  width:20px;
+	background-image: url("compass.svg");  
+			background-size: cover;
+			border-style: none;
+			background-color: black;
+			position: fixed;
+			right:140px;
+			bottom:100px;
+
+}
+
+
+#boutonCouleur:hover{
+ transform: rotate(45deg);
+}
+
+#letout{
+	margin-top: 50px;
+	width: 100%;
+	height: 100vh;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	font-size: 1em;
+	color:white;
+}
+
+
+.tableLabel{ 
+visibility:hidden;
+	}
+
+#var1{
+	height: 30px;
+	width:400px;
+ border: 1px dashed #000;
+	padding-left:20px;
+	padding-right:20px;
+	text-align: center;
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 20px;
+visibility:hidden;
+}
+#URLGenerate{
+visibility:hidden;
+}
+#button{
+    outline-style:none;
+	height: 45px;
+	width:145px;
+	margin-top: 20px;
+	border: white;
+	color: white;
+	border:1px solid;
+	padding:10px;
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 20px;
+	background-color: black;
+	cursor:pointer;
+	
+}
+
+
+
+
+#lettrehaut{
+      padding-top: 30px;
+
+    		justify-content: space-between;
+    				display: flex;
+    		
+    
+    
+}
+
+
+#ingredientsContainer{
+
+  background:black;
+ /* margin-top: 100px;*/
+  width: 700px;
+  color:white;
+  text-align:center;
+  align-items:center;
+ margin-bottom:10px;
+  line-height: 12px;
+  border: 1px dashed;
+     border-color: white;
+  display: inline-block;
+  padding-top: 30px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:20px;
+
+}
+
+
+
+
+
+
+
+.fullWidth {
+  width: 100%;
+}
+
+#col{
+    visibility:collapse;
+color:black;
+    }
+
+
+
+@media print{
+
+    @page { 
+        size: landscape;
+    }
+    
+
+@page { margin: 0cm; }
+     body { margin: 3cm; }
+
+	#col{
+	visibility: visible;
+	}
+	
+    #indice{
+	    		display:none;
+	}
+	
+	.tableLabel{
+	visibility: visible;
+	} 
+	
+	
+	
+	#tableauetlettre{
+visibility: visible;
+    
+}
+
+	#myInput{
+			display:none;
+	}
+
+		#button{
+			display:none;
+	}
+	
+
+
+
+			#boutonCouleur{
+			display:none;
+	
+				}
+			
+			
+	#broke{
+	    display:none;
+	}		
+			
+	#lettrehaut{
+	    		display:none;
+	
+	}
+		#lettrebas{
+	    		display:none;
+	    		
+	}
+	
+	
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 0.5px dotted black;
+}
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<meta charset="utf-8">
+  <title>Fax Cosmique 🛸</title>
+    <link rel="icon" type="image/png" href="../image/etoiledeux.png" />
+ <link rel="stylesheet" type="text/css" href="lebonstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=UnifrakturMaguntia&display=swap" rel="stylesheet"> 
+  <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+  </script>
+  <script>
+    function changeCouleur(couleurFond, couleurEtoile) {
+      document.body.style.backgroundColor = couleurFond;
+      document.body.style.color = couleurEtoile;
+      document.getElementById("var1").style.backgroundColor = couleurFond;
+      document.getElementById("var1").style.color = couleurEtoile;
+      document.getElementById("button").style.backgroundColor = couleurFond;
+      document.getElementById("button").style.color = couleurEtoile;
+            document.getElementById("boutonCouleur").style.backgroundColor = couleurFond;
+                        document.getElementById("var1").style.borderColor = couleurEtoile;
+
+}
+  </script> 
+  </head>
+<body>
+<!--
+   _____________
+ _/_|[][][][][] | - -
+(     Turfu Van | - -
+ - -OO- - - - OO -=   On encrypte confiné serré -->
+
+<div id="letout">
+  <input id="var1" type="text" maxlength="50" >
+<button id="button" onclick="onGenerate()">encryptage galactique</button>
+<br>
+      <textarea id="output" disabled></textarea>
+    <br>
+
+
+  <button  id="boutonCouleur" onclick="onClick()">
+</button>
+  </div>
+
+<script>  
+
+  var clicks = 0;
+    var nom_bouton;
+
+    function onClick()
+    {
+      clicks += 1;
+
+      if (clicks%2 == 0)
+      {
+        changeCouleur('rgb(0,0,0)', 'rgb(255,255,255)');
+      }
+      else
+      {
+        changeCouleur('rgb(255,255,255)', 'rgb(0,0,0)');
+      }
+
+      document.getElementById("clicks").innerHTML = clicks;
+    };
+    
+    var test = document.getElementById("var1"),
+    output = document.getElementById("output");
+
+function isLowercase(char) {
+    var charCode = char.charCodeAt(0);
+    return charCode >= 97 && charCode <= 122;
+}
+
+function isUppercase(char) {
+    var charCode = char.charCodeAt(0);
+    return charCode >= 65 && charCode <= 90;
+}
+
+function rotateChar(char, offset) {
+    return String.fromCharCode(((char.charCodeAt(0) - offset + 2) % 26) + offset);
+}
+
+function rot13(text) {
+    return text.split("").map(function(char) {
+        var offset;
+        if (isLowercase(char)) 
+            offset = 97;
+        else if (isUppercase(char)) 
+            offset = 65;
+        else 
+            return char;
+        return rotateChar(char, offset);
+    }).join("");
+} 
+
+output.textContent = rot13(test.value);
+
+test.addEventListener("input", function(e) {
+  output.textContent = rot13(test.value);
+  wesh = rot13(test.value);
+
+});
+    
+
+    function onGenerate() {
+    
+      var url = 'http://genre-genre-genre.fr/dans-mes-etoiles.html'; 
+  
+      var params = []; 
+  
+      params.push( 'var1=' + document.getElementById( 'output' ).value ); 
+  
+
+      url += '?' + params.join( '&' ); 
+      
+      alert( url ); 
+    }
+    
+
+
+</script>
+
+</body>
+</html>

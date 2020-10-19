@@ -1,0 +1,2088 @@
+<!DOCTYPE html>
+<html>
+<head>    
+ <link rel="stylesheet" type="text/css" href="lebonstyle.css">
+ 	  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=UnifrakturMaguntia&display=swap" rel="stylesheet"> 
+	<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+  </script>
+  <script>
+		function changeCouleur(couleurFond, couleurEtoile) {
+			document.body.style.backgroundColor = couleurFond;
+			document.body.style.color = couleurEtoile;
+			document.getElementById("myInput").style.backgroundColor = couleurFond;
+			document.getElementById("myInput").style.color = couleurEtoile;
+			document.getElementById("button").style.backgroundColor = couleurFond;
+			document.getElementById("button").style.color = couleurEtoile;
+						document.getElementById("ingredientsContainer").style.backgroundColor = couleurFond;
+						document.getElementById("boutonCouleur").style.backgroundColor = couleurFond;
+						document.getElementById("ingredientsContainer").style.color = couleurEtoile;
+
+}
+  </script> 
+  </head>
+<body>
+<!--
+   _____________
+ _/_|[][][][][] | - -
+(     Turfu Van | - -
+ - -OO- - - - OO -=   On encrypte confiné serré -->
+
+<div id="letout">
+
+
+	<input id="myInput" type="text" maxlength="50" >
+
+<button id="button" onclick="myFunction()">tes mots doux dans mes étoiles</button>
+<br
+		<br>
+
+		<div id="ingredientsContainer" class="toutletableau">
+			<table id="colonnea" class="fullWidth">
+				      <colgroup>
+   <col span="1" class="col" >
+    </colgroup>
+        <tr>
+					<td class="tableLabel">.</td>
+					<td class="tableLabel">a</td>
+					<td class="tableLabel">b</td>
+					<td class="tableLabel">c</td>
+					<td class="tableLabel">d</td>
+					<td class="tableLabel">e</td>
+					<td class="tableLabel">f</td>
+					<td class="tableLabel">g</td>
+					<td class="tableLabel">h</td>
+					<td class="tableLabel">i</td>
+					<td class="tableLabel">j</td>
+					<td class="tableLabel">k</td>
+					<td class="tableLabel">l</td>
+					<td class="tableLabel">_</td>
+					<td class="tableLabel">m</td>
+					<td class="tableLabel">n</td>
+					<td class="tableLabel">o</td>
+					<td class="tableLabel">p</td>
+					<td class="tableLabel">q</td>
+					<td class="tableLabel">r</td>
+					<td class="tableLabel">s</td>
+					<td class="tableLabel">t</td>
+					<td class="tableLabel">u</td>
+					<td class="tableLabel">v</td>
+					<td class="tableLabel">w</td>
+					<td class="tableLabel">x</td>
+					<td class="tableLabel">y</td>
+					<td class="tableLabel">z</td>
+
+				</tr>
+			</table>
+		</div>
+	<button  id="boutonCouleur" onclick="onClick()">
+</button>
+	</div>
+
+<script>  
+
+	var clicks = 0;
+		var nom_bouton;
+
+		function onClick()
+		{
+			clicks += 1;
+
+			if (clicks%2 == 0)
+			{
+				changeCouleur('rgb(255,255,255)', 'rgb(0,0,0)');
+			}
+			else
+			{
+				changeCouleur('rgb(0,0,0)', 'rgb(255,255,255)');
+			}
+
+			document.getElementById("clicks").innerHTML = clicks;
+		};
+
+		function myFunction() {
+
+
+    		  var x = 0;
+  var random = ["+","°","-","_","'","*","*","^","~"];
+ var phrase = document.getElementById("myInput").value;
+
+for(x = 0; x <document.getElementById("myInput").value.length; x++){
+ var text = random[Math.floor(Math.random()*random.length)];
+
+ 
+  var table = document.getElementById("colonnea");
+  var lettre = phrase.substring(x,x+1);
+  var row = table.insertRow();
+  	var cell1 = row.insertCell(0);
+	var cell2 = row.insertCell(1);
+	var cell3 = row.insertCell(2);
+	var cell4 = row.insertCell(3);
+  	var cell5 = row.insertCell(4);
+	var cell6 = row.insertCell(5);
+	var cell7 = row.insertCell(6);
+	var cell8 = row.insertCell(7);
+  	var cell9 = row.insertCell(8);
+	var cell10 = row.insertCell(9);
+	var cell11 = row.insertCell(10);
+	var cell12 = row.insertCell(11);
+  	var cell13 = row.insertCell(12);
+	var cell14 = row.insertCell(13);
+	var cell15 = row.insertCell(14);
+	var cell16 = row.insertCell(15);
+  	var cell17 = row.insertCell(16);
+	var cell18 = row.insertCell(17);
+	var cell19 = row.insertCell(18);
+	var cell20 = row.insertCell(19);
+	var cell21 = row.insertCell(20);
+	var cell22 = row.insertCell(21);
+	var cell23 = row.insertCell(22);
+  	var cell24 = row.insertCell(23);
+	var cell25 = row.insertCell(24);
+	var cell26 = row.insertCell(25);
+	var cell27 = row.insertCell(26);
+	var cell28 = row.insertCell(27);
+		var t1 = document.createElement("span");
+    	var t2 = document.createElement("span");
+    	var t3 = document.createElement("span");
+    	var t4 = document.createElement("span");
+		var t5 = document.createElement("span");
+    	var t6 = document.createElement("span");
+    	var t7 = document.createElement("span");
+    	var t8 = document.createElement("span");
+		var t9 = document.createElement("span");
+    	var t10 = document.createElement("span");
+    	var t11 = document.createElement("span");
+    	var t12 = document.createElement("span");
+		var t13 = document.createElement("span");
+    	var t14 = document.createElement("span");
+    	var t15 = document.createElement("span");
+    	var t16 = document.createElement("span");
+    	var t17 = document.createElement("span");
+    	var t18 = document.createElement("span");
+    	var t19 = document.createElement("span");
+    	var t20 = document.createElement("span");
+    	var t21 = document.createElement("span");
+    	var t22 = document.createElement("span");
+		var t23 = document.createElement("span");
+    	var t24 = document.createElement("span");
+    	var t25 = document.createElement("span");
+    	var t26 = document.createElement("span");
+    	var t27 = document.createElement("span");
+    	var t28 = document.createElement("span");
+    	var t29 = document.createElement("span");
+
+
+
+  switch(lettre) {
+
+
+    case "a":
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = text;
+				cell2.appendChild(t2);
+    break;
+
+        case "A":
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = text;
+				cell2.appendChild(t2);
+    break;
+
+            case "à":
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = text;
+				cell2.appendChild(t2);
+    break;
+
+
+    case "b":
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = text;
+				cell3.appendChild(t3);
+    break;
+
+        case "B":
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = text;
+				cell3.appendChild(t3);
+    break;
+
+    case "c":
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);    
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = text;
+				cell4.appendChild(t4);
+   
+    break;
+
+        case "C":
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);    
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = text;
+				cell4.appendChild(t4);
+   
+    break;
+
+            case "ç":
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);    
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = text;
+				cell4.appendChild(t4);
+   
+    break;
+
+        case "d":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = text;
+				cell5.appendChild(t5);
+    break;
+
+            case "D":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = text;
+				cell5.appendChild(t5);
+    break;
+
+
+        case "e":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = text;
+				cell6.appendChild(t6);
+    break;
+
+            case "E":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = text;
+				cell6.appendChild(t6);
+    break;
+
+            case "é":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = text;
+				cell6.appendChild(t6);
+    break;
+
+                case "è":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = text;
+				cell6.appendChild(t6);
+    break;
+
+        case "f":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = text;
+				cell7.appendChild(t7);
+    break;
+
+            case "F":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = text;
+				cell7.appendChild(t7);
+    break;
+
+        case "g":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = text;
+				cell8.appendChild(t8);
+    break;
+
+            case "G":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = text;
+				cell8.appendChild(t8);
+    break;
+
+        case "h":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = text;
+				cell9.appendChild(t9);
+    break;
+
+            case "H":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = text;
+				cell9.appendChild(t9);
+    break;
+
+        case "i":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = text;
+				cell10.appendChild(t10);
+    break;
+
+            case "I":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = text;
+				cell10.appendChild(t10);
+    break;
+
+            case "î":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = text;
+				cell10.appendChild(t10);
+    break;
+            case "ï":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = text;
+				cell10.appendChild(t10);
+    break;
+
+        case "j":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = text;
+				cell11.appendChild(t11);
+    break;
+
+            case "J":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = text;
+				cell11.appendChild(t11);
+    break;
+
+        case "k":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = text;
+				cell12.appendChild(t12);   
+
+				break;
+
+				        case "K":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = text;
+				cell12.appendChild(t12);   
+
+				break;
+
+
+        case "l":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = text;
+				cell13.appendChild(t13);    
+    break;
+
+            case "L":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = text;
+				cell13.appendChild(t13);    
+    break;
+
+            case " ":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = text;
+				cell14.appendChild(t14);     
+    break;
+
+
+            case "m":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = text;
+				cell15.appendChild(t15);     
+    break;
+
+                case "M":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = text;
+				cell15.appendChild(t15);     
+    break;
+
+
+            case "n":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = text;
+				cell16.appendChild(t16);
+
+				break;
+
+				            case "N":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = text;
+				cell16.appendChild(t16);
+
+				break;
+
+            case "o":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = text;
+				cell17.appendChild(t17);    
+    break;
+
+                case "O":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = text;
+				cell17.appendChild(t17);    
+    break;
+
+
+            case "p":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = text;
+				cell18.appendChild(t18);     
+    break;
+
+            case "P":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = text;
+				cell18.appendChild(t18);     
+    break;
+            case "q":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = text;
+				cell19.appendChild(t19);     
+    break;
+
+           case "Q":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = text;
+				cell19.appendChild(t19);     
+    break;
+
+             case "r":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = text;
+				cell20.appendChild(t20);   
+    break;
+
+case "R":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = text;
+				cell20.appendChild(t20);   
+    break;
+
+             case "s":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = text;
+				cell21.appendChild(t21);
+    break;
+
+               case "S":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = text;
+				cell21.appendChild(t21);
+    break;
+             case "t":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = text;
+				cell22.appendChild(t22);
+    break;
+
+    case "T":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = text;
+				cell22.appendChild(t22);
+    break;
+             case "u":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = text;
+				cell23.appendChild(t23);
+    break;
+         case "U":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = text;
+				cell23.appendChild(t23);
+    break;
+             case "v":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = text;
+				cell24.appendChild(t24);
+    break;
+    case "V":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = text;
+				cell24.appendChild(t24);
+    break;
+             case "w":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = " ";
+				cell24.appendChild(t24);
+				t25.innerHTML = text;
+				cell25.appendChild(t25);
+    break;
+
+             case "W":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = " ";
+				cell24.appendChild(t24);
+				t25.innerHTML = text;
+				cell25.appendChild(t25);
+    break;
+             case "x":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = " ";
+				cell24.appendChild(t24);
+				t25.innerHTML = " ";
+				cell25.appendChild(t25);
+				t26.innerHTML = text;
+				cell26.appendChild(t26);
+
+    break;
+
+    case "X":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = " ";
+				cell24.appendChild(t24);
+				t25.innerHTML = " ";
+				cell25.appendChild(t25);
+				t26.innerHTML = text;
+				cell26.appendChild(t26);
+
+    break;
+
+             case "y":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = " ";
+				cell24.appendChild(t24);
+				t25.innerHTML = " ";
+				cell25.appendChild(t25);
+				t26.innerHTML = " ";
+				cell26.appendChild(t26);
+				t27.innerHTML = text;
+				cell27.appendChild(t27);
+
+    break;
+ case "Y":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = " ";
+				cell24.appendChild(t24);
+				t25.innerHTML = " ";
+				cell25.appendChild(t25);
+				t26.innerHTML = " ";
+				cell26.appendChild(t26);
+				t27.innerHTML = text;
+				cell27.appendChild(t27);
+
+    break;
+             case "z":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = " ";
+				cell24.appendChild(t24);
+				t25.innerHTML = " ";
+				cell25.appendChild(t25);
+				t26.innerHTML = " ";
+				cell26.appendChild(t26);
+				t27.innerHTML = " ";
+				cell27.appendChild(t27);
+				t28.innerHTML = text;
+				cell28.appendChild(t28);
+
+    break;
+case "Z":
+
+       		    t1.innerHTML = x+1;
+				cell1.appendChild(t1);
+				t2.innerHTML = " ";
+				cell2.appendChild(t2);
+				t3.innerHTML = " ";
+				cell3.appendChild(t3);
+				t4.innerHTML = " ";
+				cell4.appendChild(t4);
+				t5.innerHTML = " ";
+				cell5.appendChild(t5);
+				t6.innerHTML = " ";
+				cell6.appendChild(t6);
+				t7.innerHTML = " ";
+				cell7.appendChild(t7);
+				t8.innerHTML = " ";
+				cell8.appendChild(t8);
+				t9.innerHTML = " ";
+				cell9.appendChild(t9);
+				t10.innerHTML = " ";
+				cell10.appendChild(t10);
+				t11.innerHTML = " ";
+				cell11.appendChild(t11);  
+				t12.innerHTML = " ";
+				cell12.appendChild(t12);
+				t13.innerHTML = " ";
+				cell13.appendChild(t13);
+				t14.innerHTML = " ";
+				cell14.appendChild(t14); 
+				t15.innerHTML = " ";
+				cell15.appendChild(t15);     
+  			    t16.innerHTML = " ";
+				cell16.appendChild(t16);
+				t17.innerHTML = " ";
+				cell17.appendChild(t17);
+				t18.innerHTML = " ";
+				cell18.appendChild(t18);
+				t19.innerHTML = " ";
+				cell19.appendChild(t19);  
+				t20.innerHTML = " ";
+				cell20.appendChild(t20);     
+				t21.innerHTML = " ";
+				cell21.appendChild(t21);
+				t22.innerHTML = " ";
+				cell22.appendChild(t22);
+				t23.innerHTML = " ";
+				cell23.appendChild(t23);
+				t24.innerHTML = " ";
+				cell24.appendChild(t24);
+				t25.innerHTML = " ";
+				cell25.appendChild(t25);
+				t26.innerHTML = " ";
+				cell26.appendChild(t26);
+				t27.innerHTML = " ";
+				cell27.appendChild(t27);
+				t28.innerHTML = text;
+				cell28.appendChild(t28);
+
+    break;
+
+
+  }}
+}
+</script>
+
+</body>
+</html>

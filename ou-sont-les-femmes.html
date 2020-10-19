@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Genre c'est de l'éducation</title>
+	<link rel="icon" type="image/png" href="../image/etoiledeux.png" />
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:500i" rel="stylesheet">
+    <!-- 	<link href="https://fonts.googleapis.com/css?family=Cormorant:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:600i" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="stylegrammaire.css"> 
+
+	<script>
+		function changeCouleur(couleurFond, couleurTitre, couleurIntro, couleurTitreUn, couleurTexteUn, couleurTitreDeux, couleurTexteDeux, couleurTitreTrois, 
+			couleurTexteTrois, couleurOuvertures  ) {
+			document.getElementById("letout").style.backgroundColor = couleurFond;
+			document.getElementById("body").style.backgroundColor = couleurFond;
+			document.getElementById("bouton").style.backgroundColor = couleurFond;
+			document.getElementById("titre").style.color = couleurTitre;
+			document.getElementById("titresous").style.color = couleurTitre;	
+			document.getElementById("textun").style.color = couleurIntro;
+			document.getElementById("titreun").style.color = couleurTitreUn;
+			document.getElementById("paragrapheun").style.color = couleurTexteUn;
+			document.getElementById("titredeux").style.color = couleurTitreDeux;
+			document.getElementById("paragraphedeux").style.color = couleurTexteDeux;
+			document.getElementById("paragraphecinq").style.color = couleurTexteDeux;
+						document.getElementById("paragraphesix").style.color = couleurTexteDeux;
+									document.getElementById("paragraphesept").style.color = couleurTexteDeux;
+			document.getElementById("titretrois").style.color = couleurTitreTrois;
+			document.getElementById("paragraphetrois").style.color = couleurTexteTrois;
+			document.getElementById("versdeux").style.color = couleurOuvertures;
+			document.getElementById("verstrois").style.color = couleurOuvertures;
+
+
+		}
+
+	</script>
+
+
+</head>
+
+<body id="body">
+
+
+	<script type="text/javascript">
+		var clicks = 0;
+		var nom_bouton;
+
+		function onClick()
+		{
+			clicks += 1;
+
+			if (clicks%2 == 0)
+			{
+				changeCouleur('rgb(250,250,250)', 'rgb(221,63,16)' , 'rgb(244,163,61)', 'rgb(31,173,121)', 'rgb(131,43,101)' , 'rgb(52,250,59)', 'rgb(225,87,223)', 'rgb(31,114,255)' , 'rgb(10,144,237)', 'rgb(213,232,58)');
+			}
+			else
+			{
+				changeCouleur('rgb(250,250,250)', 'rgb(0,0,0)' , 'rgb(0,0,0)', 'rgb(0,0,0)', 'rgb(0,0,0)' , 'rgb(0,0,0)', 'rgb(0,0,0)', 'rgb(0,0,0)' , 'rgb(0,0,0)', 'rgb(0,0,0)' );
+			}
+
+			document.getElementById("clicks").innerHTML = clicks;
+		};
+
+	</script>
+
+
+	<div id="letout">
+
+		<div id="un">				
+
+
+			<div id="titre">
+
+				Petite histoire
+
+			</div>
+
+			<div id="titresous">
+				de la langue française
+			</div>
+
+
+
+			<div id="textun">
+
+
+				La langue française contribue à <span id="paragraphesix">l’invisibilisation des femmes</span> en utilisant le masculin comme forme neutre.
+				C’est au cours du siècle des Lumières que les règles d’usage de la langue française telles que nous les connaissons aujourd’hui ont été établies. Ces réformes ont été proposées <span id="paragraphesept">par des hommes pour asseoir leur pouvoir</span> sur le sexe opposé de façon implicite dans le quotidien. 
+
+			</div>
+
+		</div>
+
+		<div id="deux">
+
+			<div id="textdeux">
+
+				<span class="gras"><span id="titreun">En grammaire le masculin ne l’a pas toujours emporté sur le féminin</span></span>
+				<br>
+
+				<div id="paragrapheun"> 
+					Jusqu'au 18e siècle, on utilise <span class="couleurun">l' accord de proximité</span>. On accorde l’adjectif en genre et en nombre avec le dernier nom. Ainsi, on écrit par exemple : Les femmes et les <span class="couleurun">hommes</span> sont <span class="couleurun">gagnants</span>, ou Les hommes et les <span class="couleurun">femmes</span> sont <span class="couleurun">gagnantes</span>.
+
+					<br> 
+					Puis l’accord de proximité est remplacé par la règle «quand les deux genres se rencontrent, il faut que le plus noble l'emporte» 	(<a href="https://www.lemonde.fr/culture/article/2012/01/14/genre-le-desaccord_1629145_3246.html" target="blank" class="externeun"> Abbé Bouhours</a>, 1628-1702), le genre le plus noble désignant évidemment le genre masculin, comme l’explique le grammairien Beauzée (1717-1789) : «Le genre masculin est réputé plus noble que le féminin à cause de la supériorité du mâle sur la femelle». C'est cette règle que l’on apprend <span class="couleurun">toujours</span> à l'école sous la forme <span class="couleurun">Le masculin l'emporte toujours sur le féminin</span>.			
+				</div>
+
+				<img src="grammaire/image/gif.gif" alt="poetesse" div="poetesse" style="width:95%;" class="image">
+
+				
+				<span class="gras"><span id="titredeux">Curieuse disparition</span></span>
+				<br>
+
+				<div id="paragraphedeux"> De la même manière, un grand nombre de métier féminin ont <span class="couleurdeux">curieusement disparu</span> de notre vocabulaire. 
+					<br>	
+
+					Avant le 17e siècle, on emploie régulièrement les mots philosophesse, poétesse, autrice, mairesse, capitainesse, médecine, peintresse, etc. Tous ces mots sont <span class="couleurdeux">supprimés</span> pour ne garder que leur forme masculine, et ce afin d'empêcher les femmes d'être légitimes dans ces professions. Certains métiers conservent en revanche leur version féminine, tels que boulangère, un métier qui ne représente pas de pouvoir intellectuel, ou encore actrice, qui renvoie à un métier lié au corps et non à la réflexion. 			
+
+
+					<img src="grammaire/image/poetessedeux.gif" alt="poetesse" div="poetesse" style="width:95%;" class="image">
+
+					Cette réforme va très loin, puisqu’on va jusqu'à changer le genre de nombreux noms communs. Ce qui est négatif, mou ou considéré comme féminin est associé aux femmes, alors que ce qui est positif ou puissant revient aux hommes. Le mot <span class="couleurdeux">erreur</span>, par exemple, qui est initialement masculin devient féminin (tiens donc!).</span> 
+
+
+				</div>
+
+
+
+			</div>
+		</div>
+
+		<div id="trois">
+
+
+
+			<div id="texttrois">
+
+				<div id="paragraphecinq">
+					C’est par le biais de l’école primaire que ces règles se généralisent et ce n’est que lorsque celle-ci devient obligatoire (en 1881) qu’elles commencent à être appliquées massivement.
+				</div>
+				<img src="grammaire/image/erreur.gif" alt="erreur" style="width:95%;" class="image" >
+
+				<br><br>
+				<span class="gras"><span id="titretrois">Un héritage un peu lourd</span></span><br>
+
+				<div id="paragraphetrois">
+					Aujourd'hui le <span class="couleurtrois">masculin</span> est utilisé comme <span class="couleurtrois">catégorie universelle, neutre</span>. Ce qui participe à invisibiliser les femmes. Ces dernières se retrouvent exclues de la langue car les termes ne sont que rarement féminisés. La forme masculine des mots, est en effet considérée comme la forme régulière de la langue tandis que le <span class="couleurtrois">féminin</span> est présenté aux élèves comme une <span class="couleurtrois">forme irrégulière</span>.
+
+					<br><br>
+					<a href="https://education.francetv.fr/matiere/actualite/ce1/video/c-est-quoi-l-ecriture-inclusive" target="blank" class="externetrois"> L'écriture inclusive</a> propose de changer nos règles de grammaire pour inclure systématiquement le féminin dans la langue française. Cela passe principalement par deux mesures:<br>
+					<span class="gras">-</span>Utiliser la forme des mots au féminin, <span class="italique">autrice</span> par exemple ou <span class="italique">présidente</span>, et parler <span class="italique">des auteur.ices</span> au pluriel ou <span class="italique">des auteurs et des autrices</span>. <br>
+					<span class="gras">-</span>Réintroduire l’accord de proximité. En novembre 2017, 314 enseignant.e.s et professeur.e.s signent <a href="http://www.slate.fr/story/153492/manifeste-professeurs-professeures-enseignerons-plus-masculin-emporte-sur-le-feminin" target="blank" class="externetrois"> une tribune qui dénonce la masculinisation de force de la langue française</a>, et proposent à leurs classes d’utiliser l’accord de proximité.
+					<br>
+					<br>
+					«la répétition de cette formule [«le masculin l’emporte toujours sur le féminin»] aux enfants, dans les lieux mêmes qui dispensent le savoir et symbolisent l’émancipation par la connaissance, induit des représentations mentales qui conduisent femmes et hommes à accepter la domination d'un sexe sur l'autre, de même que toutes les formes de minorisation sociale et politique des femmes» <br> démonce Éliane Viennot, professeur de littérature.
+					<br>
+
+					<div id="etoile"></div>
+
+					La même année, la maison d’édition Hatier propose <span class="couleurtrois">le premier manuel scolaire écrit en écriture inclusive</span>. «La langue dit ce qu’est une société. Je ne vois aucune logique au fait que le masculin l’emporte. Je considère qu’on doit veiller à ce que les mots qu’on emploie soient le plus possibles proches de la société qu’on entend promouvoir» Gérard Biard, journaliste chez Charlie Hebdo.
+
+				</div>
+			</div>
+
+
+
+		</div>
+
+
+		<div id="quatre">
+			<div id="icones">
+				<a href="galaxie.html"><div id="intro"></div> </a>
+				<div id="introdeux"></div>	
+				<a href="../bibliographie/bibliographie.html"><div id="biblio"></div> </a>	
+				<a href="qu-est-ce-que-cest-ca.html"><div id="lexique"></div> </a>	
+
+				<button type="button" id="bouton" onClick="onClick()"></button>
+
+
+
+			</div>
+
+
+
+
+			<div id="ouvertures">
+
+
+
+
+				<div id="ledeux">
+					<a href="cest-pas-marque-dans-les-livres.html">
+						<div id="versdeux"> Model et Identification<br/><span class="soustitre">dans les manuels scolaires</span>
+						</div>
+					</a> 
+				</div>
+
+
+
+				<div id="letrois">
+					<a href="jette-ton-cahier-et-met-l-fire.html">
+						<div id="verstrois"> L'occupation de l'espace<br/><span class="soustitre">dans la classe</span>
+						</div> 
+					</a> 
+				</div>
+
+
+
+
+
+			</div>	
+		</div>
+
+	</div>
+
+
+
+
+</body>
+</html>

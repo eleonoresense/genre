@@ -1,0 +1,167 @@
+html, body{
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+
+
+#usinemoon{
+	fill:none;
+	stroke-linejoin:round;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	stroke:white;
+	stroke-width:2;
+	stroke-miterlimit:10;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+
+#etoile{
+	animation-name: coolun;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;}
+
+
+	@keyframes coolun {
+		49% {opacity: 100%;}
+		50% {opacity: 0%;}
+		99% {opacity: 0%;}
+		100% {opacity: 100%;}
+	}
+
+
+	#fuseeun{
+		animation-name: cooldeux;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;}
+
+
+		@keyframes cooldeux {
+			49% {opacity: 100%;}
+			50% {opacity: 0%;}
+			99% {opacity: 0%;}
+			100% {opacity: 100%;}
+		}
+
+		#fuseedeux{
+			animation-name: cooltrois;
+			animation-duration: 1s;
+			opacity:0%;
+			animation-iteration-count: infinite;}
+
+
+			@keyframes cooltrois {
+				49% {opacity: 0%;}
+				50% {opacity: 100%;}
+				99% {opacity: 100%;}
+				100% {opacity: 0%;}
+			}
+
+			#antenne{
+				animation-name: coolquatre;
+				animation-duration: 0.5s;
+				stroke:yellow;
+				animation-iteration-count: infinite;}
+
+
+				@keyframes coolquatre {
+					49% {stroke: yellow;}
+					50% {stroke: red;}
+					99% {stroke: red;}
+					100% {stroke: yellow;}
+				}
+
+				#wesh{
+					margin-top: 170px;
+					margin-bottom: 30px;
+					fill:none;
+					stroke-linejoin:round;
+					display: flex;
+					justify-content: space-around;
+					align-items: center;
+					stroke:white;
+					stroke-width:2;
+					stroke-miterlimit:10;
+				}
+
+				#roueune{
+					animation-name: roule;
+					animation-duration: 0.5s;
+					position:relative;
+					animation-iteration-count: infinite;}
+
+
+					@keyframes roule{
+						0% {top: -2px;}
+						49% {top: -2px;}
+						50% {top: 5px;}
+						99% {top: 5px;}
+					}
+
+					#trois{
+						animation-name: un;
+						animation-duration: 3s;
+						position:relative;
+						opacity:0%;
+						animation-iteration-count: infinite;}
+
+
+						@keyframes un{
+							0% {opacity:0%;}
+							24% {opacity:0%;}
+							25% {opacity:100%;}
+							100% {opacity: 100%;}
+						}
+
+						#deux{
+							animation-name: deux;
+							animation-duration: 3s;
+							position:relative;
+							opacity:0%;
+							animation-iteration-count: infinite;}
+
+
+							@keyframes deux{
+								0% {opacity:0%;}
+								49% {opacity:0%;}
+								50% {opacity:100%;}
+								100% {opacity: 100%;}
+							}
+
+							#un{
+								animation-name: trois;
+								animation-duration: 3s;
+								position:relative;
+								opacity:0%;
+								animation-iteration-count: infinite;}
+
+
+								@keyframes trois{
+									0% {opacity:0%;}
+									74% {opacity:0%;}
+									75% {opacity:100%;}
+									100% {opacity: 100%;}
+								}
+
+								#boom{
+									stroke: violet;
+									animation-name: couleur;
+									animation-duration: 3s;
+									animation-iteration-count: infinite;}
+							
+
+
+								@keyframes couleur{
+									0% {stroke :violet;}
+									74% {stroke:violet;}
+									75% {stroke:red;}
+									100% {stroke:red;}
+								}
+
+								#lebas{
+									margin-bottom: 50px;
+								}
