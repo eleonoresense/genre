@@ -1,0 +1,313 @@
+html, body{
+	font-family: 'Cormorant', serif;
+	margin:0px;
+}
+
+#body{
+	background: rgb(254,242,81) ;
+}
+
+#letout{
+	width: 100vw;
+	height: 100vh;
+	background: rgb(254,242,81) ;
+	display: flex;
+	justify-content: center ;
+	align-items: center;
+	flex-wrap:wrap;
+	font-size: 1em;
+		color: rgb(235,50,35);
+
+}
+
+.image{
+margin-top:10px;
+margin-bottom:10px;}
+
+
+	#bouton{
+		width: 40px;
+		height:40px;
+		background-image: url("../image/journuit.png");
+		background-color: rgb(254,242,81) ;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 153px;
+		border-style: none;
+		cursor: pointer;
+	}
+
+
+	#introdeux{
+		width: 63px;
+		height:40px;
+		background-image: url("../image/fond.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 20px;
+	}
+
+	#intro{
+		width: 63px;
+		height:40px;
+		background-image: url("../image/retour.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 2;
+		top: 20px;
+		opacity: 0;
+		right: 20px;
+	}
+
+	#intro:hover{
+
+		opacity: 1;
+	}
+
+	#biblio{
+		width: 44px;
+		height:40px;
+		background-image: url("../image/biblio.png");
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		z-index: 1;
+		top: 20px;
+		right: 98px;
+	}
+
+
+
+
+#un{
+	width: 25vw;
+	height: 100vh;
+}
+
+
+#titre{
+	font-size: 2.1em;
+
+	padding-left: 20px;	
+	padding-top: 10px;	
+	position: fixed;
+
+}
+
+#titresous{
+	font-size: 1.9em;
+	font-style: italic;
+	left: 20px;	
+	padding-top: 40px;	
+	position: fixed;
+
+}
+
+
+
+
+#textun{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	width: 22vw; 
+	top: 77px;	
+	padding-left: 20px;
+	margin-right: 60px;	
+	position: fixed;
+
+}
+
+
+
+#deux{
+	width: 25vw;
+	height: 100vh;
+}
+
+#textdeux{
+	padding-top: 77px;	
+	padding-left: 15px;
+	padding-right: 5px;	
+	padding-bottom: 30px;	
+}
+
+#trois{
+	width: 25vw;
+	height: 100vh;
+}
+
+
+#texttrois{
+	padding-top: 77px;	
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-bottom: 30px;		
+
+}
+
+#textquatre{
+	padding-top: 77px;	
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-bottom: 30px;		
+
+}
+
+
+#etoile{
+	width: 30px;
+	height:30px;
+	background-image: url("../image/etoiledeux.png");
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	transform: rotate(0deg);
+	transition:  transform 2s ;
+}
+
+#etoile:hover{
+	transform: rotate(90deg);
+}
+
+/*#poete{
+	  height: 46px;
+	  width: 200px;
+	background-image: url("image/poetesse.gif");
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	}*/
+
+	.center{
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+	#italic{
+		line-height: 14px;
+		font-style: italic;
+		font-size: 1.8em;
+
+		padding-left: 20px;	
+
+	}
+
+
+	#quatre{
+		width: 25vw;
+		height: 100vh;
+	}
+
+	.gras{
+		font-family: roboto;
+		font-size:0.9em;
+		/*font-weight: bold;*/
+	}
+	}
+
+	.gras:hover{
+
+		text-decoration: underline;
+	}
+
+
+
+	.couleur:hover{
+		color:red;
+
+	}
+
+	.big:hover{
+		font-style: italic;
+		font-style: bold;
+		font-size: 1.3em;
+
+	}
+
+	.soustitre{
+		font-style: italic;
+		font-size: 0.9em;
+	}
+
+/*#ouvertures{
+	position:fixed;
+	}*/
+
+	#leun{
+		text-align: right;
+		position: fixed;
+		bottom: 115px;	
+		right: 20px;
+
+	}
+
+
+	#ledeux{
+		text-align:right;
+		bottom: 75px;		
+		right: 20px;
+		position: fixed;
+
+	}
+
+	#letrois{
+		text-align:right;
+		position: fixed;
+		bottom: 35px;
+		right: 20px;
+
+	}
+
+
+
+	a{
+		font-family:Roboto;
+		font-size: 1.1em;
+		text-decoration: none ;
+		line-height: 15px;
+		color:rgb(38,111,198);
+	}
+
+	a:hover{
+		font-style: italic;
+		font-size: 1.3em;
+		
+		/*color:rgb(42,122,80); */
+
+	}
+
+
+
+	/*#versun{
+		color:rgb(0,177,255);
+	}
+
+	.versun:hover{
+
+		color:rgb(42,122,80);
+
+	}
+
+
+	#versdeux{
+		color:rgb(0,177,255);
+	}
+	#verstrois{
+		color:rgb(0,177,255);
+	}*/
